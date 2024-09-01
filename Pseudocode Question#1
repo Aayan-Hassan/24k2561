@@ -1,0 +1,13 @@
+Question: Find the maximum number in any of three variables.
+
+START
+INPUT n1
+INPUT n2
+INPUT n3
+IF n1>n2 && n1>n3
+  PRINT "{n1} is the largest among the three numbers"
+ELSE IF n2>n1 && n2>n3
+  PRINT "{n2} is the largest among the three numbers"
+ELSE
+  PRINT "{n3} is the largest among the three numbers"
+END
