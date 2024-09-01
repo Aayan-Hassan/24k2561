@@ -1,0 +1,17 @@
+Question: Create a small calculator which only does ‘+’ or ‘-‘ Operations.
+(Hint: Take three variable inputs with one being used for the operator)
+
+START
+PRINT "Enter two numbers"
+INPUT x
+INPUT y
+PRINT "Enter the operator"
+PRINT "+ to add and - to subtract the numbers"
+INPUT oper
+IF (oper == +)
+  PRINT "{x+y}"
+ELSE IF (oper == -)
+  PRINT "{x-y}"
+ELSE
+  PRINT "<!> INVALID OPERATOR <!>"
+END
