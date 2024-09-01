@@ -1,0 +1,11 @@
+Question: Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)
+
+1- Ask the user to input two numbers: n1 and n2
+2- Ask the user to input an operator (+,-,*,/,%): oper
+3- IF oper is '+', THEN print n1 + n2
+4- IF oper is '-', THEN print n1 - n2
+5- IF oper is '*', THEN print n1 * n2
+6- IF oper is '/', THEN print n1 / n2
+7- IF oper is '%', THEN print n1 % n2
+8- ELSE print "<!> INVALID OPERATOR <!>"
+9- End
